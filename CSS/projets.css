@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #fff8fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #c9cf6f, #faf62a);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .para {
+  font-family: italic;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  font-style: oblique;
+}
+
+h1{
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #d7d96b;
+  border-left: 5px solid #f7efa8;
+  font-size: 1.8em;
+  padding-left: 10px;
+  margin: 30px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #abc744;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+a {
+  color:#bae41b;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: #d1c135;
+  color: white;
+  padding: 15px;
+  font-size: 0.9em;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: 40px;
+}
+
+article {
+  margin: 50px auto;
+  width: 85%;
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(219, 245, 104, 0.3);
+}
+
+article {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+article:hover {
+  transform: scale(1.05) translateZ(10px);
+  box-shadow: 0 8px 16px rgba(255, 182, 193, 0.5);
+}
+
+
+/* Grille fluide pour tous les projets */
+#projets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+/* Bloc de chaque projet */
+.carte-projet {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(255, 239, 120, 0.3);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet léger au survol (agrandissement simple) */
+.carte-projet:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(220, 235, 120, 0.6);
+}
+
+.carte-projet h3 {
+  color: #b5bf31;
+}
