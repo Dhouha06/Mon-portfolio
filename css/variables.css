@@ -1,0 +1,22 @@
+/* === Polices === */
+:root {
+  --font-main: "Poppins", "Segoe UI", sans-serif;
+
+  /* === Échelle typographique fluide === */
+  --fs-xs: clamp(0.8rem, 1vw, 1rem);
+  --fs-sm: clamp(1rem, 1.2vw, 1.2rem);
+  --fs-md: clamp(1.2rem, 1.6vw, 1.6rem);
+  --fs-lg: clamp(1.6rem, 2.2vw, 2.2rem);
+  --fs-xl: clamp(2rem, 3vw, 3rem);
+  --fs-xxl: clamp(3rem, 4.5vw, 4rem);
+
+  /* === Arrondis (Borders) === */
+  --radius-sm: 1rem;
+  --radius-md: 2rem;
+  --radius-lg: 3rem;
+
+  /* === Ombres (Shadows) === */
+  --shadow-soft: 0 0.3rem 1rem rgba(0,0,0,0.1);
+  --shadow-medium: 0 0.6rem 1.6rem rgba(0,0,0,0.15);
+  --shadow-strong: 0 1rem 2.2rem rgba(0,0,0,0.2);
+}

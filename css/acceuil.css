@@ -1,0 +1,128 @@
+body {
+  font-family: var(--font-main);
+  background-color: #fff8fb;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #f9b4d4, #fcd3e1);
+  color: #fff;
+  padding: 8vh 4vw;
+}
+
+header h1 {
+  font-size: var(--fs-xl);
+  letter-spacing: 0.1vw;
+}
+
+a {
+  color: #f47aa5;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  color: #fff;
+}
+nav a:hover {
+  color: #ffe1f0;
+}
+
+section {
+  background-color: #fff;
+  border-radius: var(--radius-md);
+  box-shadow: 0 0.4rem 1.2rem rgba(255, 182, 193, 0.3);
+}
+
+h2 {
+  color: #d96b9a;
+  border-left: 0.4rem solid #f7a8c5;
+  padding-left: 1vw;
+  font-size: var(--fs-lg);
+}
+
+h3 {
+  color: #f088b4;
+}
+
+ul {
+  list-style-type: "💗 ";
+  padding-left: 3vw;
+}
+
+footer {
+  background-color: #f7c2d4;
+  color: #fff;
+}
+
+#competences {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+#competences h2 {
+  color: #f48fb1;
+  margin-bottom: 20px;
+}
+
+.grid-competences {
+  display: grid;                    
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;                       
+  max-width: 800px;
+  margin: 0 auto;                 
+}
+
+.grid-competences .bloc {
+  background-color: #fff0f5;        
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.grid-competences .bloc:hover {
+  transform: scale(1.05);
+}
+
+.grid-competences h3 {
+  color: #e75480;
+  margin-bottom: 10px;
+}
+
+.grid-competences ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-competences li {
+  padding: 5px 0;
+}
+
+#photo-profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* retire l’espace interne qui crée le gros rectangle */
+    padding: 0;
+
+    /* optionnel : réduire sa taille si tu veux que le bloc soit plus petit */
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    /* si tu vois encore un fond blanc, efface-le */
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.bloc {
+  font-family: "Pixelify", sans-serif;
+}
+
+
+
