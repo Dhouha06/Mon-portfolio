@@ -4,59 +4,73 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mon Portfolio</title>
-    <link rel="stylesheet" href="./CSS/acceuil.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/acceuil.css">  
+
 
 <body>
   <header>
+    <section id="photo-profil"> 
+      <img src="images/photo_de_profil.jpg" alt="Photo de Dhouha Boubakri">
+    </section>
     <h1>Dhouha Boubakri</h1>
-    <p class="para">etudiante en Mathematiques</p>
+    <p class="bloc">étudiante en mathématiques </p>
     <nav>
       <a href="#apropos">À propos</a> |
       <a href="projets.html">Projets</a> |
       <a href="#competences">Compétences</a> |
       <a href="#contact">Contact</a>
     </nav>
+
   </header>
 
   <section id="apropos">
     <h2>À propos</h2>
-    <p class="para">
-      Je suis étudiante en première année de Licence de Mathématiques à l’ULCO. 
+    <p>
+      Je suis étudiante en première année licence mathématiques à l’ULCO. 
       Je m’intéresse à l’informatique et aux applications scientifiques, et je souhaite intégrer 
       une école d’ingénieurs en informatique après ma licence. 
     </p>
   </section>
 
   <section id="competences">
-    <h2>Compétences</h2>
-    <ul>
-      <li>Python</li>
-      <li>HTML</li>
-      <li>CSS (bases)</li>
-      <li>Git et GitHub</li>
-      <li>Linux (bases)</li>
-    </ul>
+  <h2>Compétences</h2>
+  <div class="grid-competences">
+    <div class="bloc">
+      <h3>Informatique</h3>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript (bases)</li>
+        <li>HTML</li>
+        <li>CSS (bases)</li>
+        <li>Git et GitHub</li>
+        <li>Linux (bases)</li>
+      </ul>
+    </div>
 
-    <h3>Langues</h3>
-    <ul>
-      <li>Français : maternelle</li>
-      <li>Arabe : maternelle</li>
-      <li>Anglais : B2</li>
-      <li>Italien : B1</li>
-      <li>Espagnol : A2</li>
-      <li>Allemand : débutant</li>
-    </ul>
-  </section>
+    <div class="bloc">
+      <h3>Langues</h3>
+      <ul>
+        <li>Français : maternelle</li>
+        <li>Arabe : maternelle</li>
+        <li>Anglais : B2</li>
+        <li>Italien : B1</li>
+        <li>Espagnol : Débutante</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
   <section id="education">
     <h2>Éducation</h2>
-    <p>Licence 1 Mathématiques - Université du Littoral Côte d’Opale (2025)</p>
+    <p>licence Mathématiques 1 - Université du Littoral Côte d’Opale (2025)</p>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>Email : <a href="mailto:dhouha118@gmail.com">Mon email</a></p>
-    <p>GitHub : <a href="https://github.com/Dhouha06.git">Mon GitHub</a></p>
+    <p>GitHub : <a href="https://dhouha06.github.io">Mon GitHub</a></p>
   </section>
 
   <footer>
@@ -65,4 +79,3 @@
 
 </body>
 </html>
-
