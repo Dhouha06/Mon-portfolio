@@ -1,67 +1,28 @@
-/* RESET GLOBAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: var(--font-main);
-  line-height: 1.6;
-  background-image: url("images/font.jpg");
-  background-size: cover;        /* Pour remplir l’écran */
-  background-repeat: no-repeat;  /* Pour éviter la répétition */
-  background-attachment: fixed;  /* (Optionnel) effet fixe */
-}
-
-/* === HEADER : structure générale (pas couleurs) === */
 header {
   text-align: center;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-soft);
   padding: 8vh 4vw;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5em;
-  letter-spacing: 1px;
+  font-size: var(--fs-xl);
+  letter-spacing: 0.1vw;
 }
 
-/* NAV LINKS (structure) */
 nav a {
   font-weight: bold;
   margin: 0 1vw;
   text-decoration: none;
   font-size: var(--fs-sm);
-}
-
-/* FOOTER GÉNÉRAL */
-footer {
-  text-align: center;
-  padding: 3vh 2vw;
-  margin-top: 8vh;
-  border-top-left-radius: var(--radius-lg);
-  border-top-right-radius: var(--radius-lg);
-  font-size: var(--fs-xs);
-  box-shadow: var(--shadow-soft);
-}
-
-/* SECTIONS communes */
-section {
-  width: 85%;
-  margin: 8vh auto;
-  padding: 4vh 4vw;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-soft);
-}
-
-/* IMAGE DE PROFIL / IMAGE DE PROJET */
-#photo-profil {
-  display: flex;
-  justify-content: center;
-  margin-top: 5vh;
 }
 
 #photo-profil img {
@@ -72,8 +33,36 @@ section {
   box-shadow: var(--shadow-medium);
 }
 
+body {
+  font-family: var(--font-main);
+  line-height: 1.6;
+  background-image: url("images/font.jpg");
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-attachment: fixed;  
+}
+
+section {
+  width: 85%;
+  margin: 8vh auto;
+  padding: 4vh 4vw;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  
+}
+
 h3 {
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 3vh 2vw;
+  margin-top: 8vh;
+  border-top-left-radius: var(--radius-lg);
+  border-top-right-radius: var(--radius-lg);
+  font-size: var(--fs-xs);
+  box-shadow: var(--shadow-soft);
 }
 
 /* RESPONSIVE */

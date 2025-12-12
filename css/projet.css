@@ -1,8 +1,3 @@
-body {
-  background-color: #eef4ff;
-  color: #1b2a41;
-}
-
 header {
   background: linear-gradient(135deg, #4a6cf7, #8ab6ff);
   color: white;
@@ -10,6 +5,11 @@ header {
 
 nav a:hover {
   color: #dce8ff;
+}
+
+body {
+  background-color: #eef4ff;
+  color: #1b2a41;
 }
 
 #photo-profil {
@@ -28,18 +28,11 @@ section {
   box-shadow: 0 0.6rem 1.6rem rgba(90,120,200,0.25);
 }
 
-h2 {
-  color: #3b55c5;
-  border-left: 0.4rem solid #9dbaff;
-  padding-left: 1vw;
-  font-size: var(--fs-lg);
+.sous-titre{
+    font-family: "BitcountGrid", sans-serif;
 }
 
 footer {
   background-color: #4a6cf7;
   color: white;
-}
-
-.sous-titre{
-    font-family: "BitcountGrid", sans-serif;
 }

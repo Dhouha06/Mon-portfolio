@@ -1,38 +1,39 @@
-body {
-  font-family: var(--font-main);
-  background-color: #fff8fb;
-  color: #333;
-}
-
 header {
   background: linear-gradient(135deg, #f9b4d4, #fcd3e1);
   color: #fff;
   padding: 8vh 4vw;
 }
 
-header h1 {
-  font-size: var(--fs-xl);
-  letter-spacing: 0.1vw;
-}
-
-a {
-  color: #f47aa5;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 nav a {
   color: #fff;
 }
+
 nav a:hover {
   color: #ffe1f0;
+  text-decoration: underline;
 }
 
-section {
+#photo-profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  color: #333;
+}
+
+section{
   background-color: #fff;
-  border-radius: var(--radius-md);
-  box-shadow: 0 0.4rem 1.2rem rgba(255, 182, 193, 0.3);
 }
 
 h2 {
@@ -46,16 +47,6 @@ h3 {
   color: #f088b4;
 }
 
-ul {
-  list-style-type: "💗 ";
-  padding-left: 3vw;
-}
-
-footer {
-  background-color: #f7c2d4;
-  color: #fff;
-}
-
 #competences {
   margin-top: 50px;
   padding: 20px;
@@ -63,7 +54,7 @@ footer {
 }
 
 #competences h2 {
-  color: #f48fb1;
+  color: #d96b9a;
   margin-bottom: 20px;
 }
 
@@ -71,11 +62,11 @@ footer {
   display: grid;                    
   grid-template-columns: repeat(2, 1fr); 
   gap: 40px;                       
-  max-width: 800px;
   margin: 0 auto;                 
 }
 
 .grid-competences .bloc {
+  font-family: "Pixelify", sans-serif;
   background-color: #fff0f5;        
   border-radius: 20px;
   padding: 20px;
@@ -98,31 +89,16 @@ footer {
   margin: 0;
 }
 
+ul {
+  list-style-type: "💗 ";
+  padding-left: 3vw;
+}
+
 .grid-competences li {
   padding: 5px 0;
 }
 
-#photo-profil {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* retire l’espace interne qui crée le gros rectangle */
-    padding: 0;
-
-    /* optionnel : réduire sa taille si tu veux que le bloc soit plus petit */
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-
-    /* si tu vois encore un fond blanc, efface-le */
-    background: transparent;
-    box-shadow: none;
-    border-radius: 0;
+footer {
+  background-color: #f7c2d4;
+  color: #fff;
 }
-
-.bloc {
-  font-family: "Pixelify", sans-serif;
-}
-
-
-
